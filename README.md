@@ -36,20 +36,3 @@ I exported the handtrack model using the Tensorflow.js converter and have it wra
 
 <!-- <img src="https://github.com/victordibia/handtracking/blob/master/images/doodle.gif?raw=true" width="100%"> -->
 
-## Installation
-
-> The app has been tested using *Python 3*. Please use your Python 3 environment if possible.
-
-Install requirements.
-
-```
-pip install -r requirements.txt
-```
-
-## Run  Application
-
-```
-python app.py
-```
-
-MIT License.
