@@ -1,5 +1,5 @@
 
-## SkyFall : Gesture Controlled Web based Game using Tensorflow Object Detection Api
+## SkyFall : Hand Gesture Game
 
 > Control the game paddle by waving your hand in from of a web cam.
 
@@ -19,10 +19,6 @@ The game web interface listens for hand detection data over a web socket. Each d
 
 <img src="static/img/handmap.jpg" width="100%">
 
-# Next Steps/Todo
-
-There are several limitations with the current implementation — so contributions, pull requests are most welcome!
-
 **Hand Detector Improvement**
 This entails collecting additional training data and leveraging data augmentation strategies to improve the hand detector. This is important as the entire interaction (and user experience) depends on accurate and robust hand tracking (false positives, false negatives make for bad UX).
 
@@ -39,13 +35,6 @@ I exported the handtrack model using the Tensorflow.js converter and have it wra
 
 <img src="https://github.com/victordibia/handtracking/blob/master/images/doodle.gif?raw=true" width="100%">
 
-Learn more below
-
-- Blog Post:  [Hand Tracking Interactions in the Browser using Tensorflow.js and 3 lines of code.](https://medium.com/@victor.dibia/handtrackjs-677c29c1d585)
-- Github: [Handtrack.js Github Repo](https://github.com/victordibia/handtrack.js)
-- Live Demo : [Handtrack.js Examples in the Browser](https://victordibia.github.io/handtrack.js/)
-
-
 ## Installation
 
 > The app has been tested using *Python 3*. Please use your Python 3 environment if possible.
@@ -61,9 +50,5 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-
-View the game interface (hand control) in your browser - `http://localhost:5005/hand` 
-
-To view a simple mouse control version `http://localhost:5005` 
 
 MIT License.
